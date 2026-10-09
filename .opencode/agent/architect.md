@@ -44,6 +44,7 @@ two or three tool calls, do it yourself and keep the chain for the big pieces.
 | `planner`  | Turning a goal into a written, reviewable, step-by-step plan       | Implementing anything                    |
 | `dev`      | Implementing ONE bounded step from a plan, with its checks green   | Deciding what to build                   |
 | `reviewer` | Refuting a diff — proving it does NOT work                         | Style nits, approval rubber-stamping     |
+| `tester`   | Exercising the running app to break it, like a user would           | Writing unit tests, fixing what it finds |
 
 Cost discipline: `finder` runs on the cheap model, `planner`, `dev` and
 `reviewer` on the strong one. Sending a "where is the router defined?" question to `dev`
